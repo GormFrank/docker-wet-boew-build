@@ -1,5 +1,7 @@
 FROM node:6
 
+ENV NPM_CONFIG_PREFIX=~/.npm-global
+
 RUN npm install -g \
 		grunt-cli \
 		bower \
