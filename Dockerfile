@@ -1,6 +1,6 @@
 FROM node:6
 
-ENV NPM_CONFIG_PREFIX=~/.npm-global
+ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
 
 RUN npm install -g \
 		grunt-cli \
