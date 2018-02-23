@@ -3,7 +3,7 @@ FROM node:8
 RUN npm install -g \
 		grunt-cli \
 		bower \
-	&& npm cache clean
+	&& npm cache clean --force
 
 #
 # Java
